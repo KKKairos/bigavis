@@ -1,0 +1,70 @@
+  :root {
+      --chatPfpSize: 60px;
+    }
+    .container-1YxwTf .wrapper-2F3Zv8{
+      margin-top: 0;
+      width: var(--chatPfpSize);
+      height: var(--chatPfpSize);
+    }
+    .container-1YxwTf .image-33JSyf{
+      width: 100%;
+      height: 100%;
+      background-position: center;
+      background-size: cover;
+    }
+    .contentCozy-3XX413 {
+      margin-left: calc(40px + var(--chatPfpSize));
+    }
+    .container-1YxwTf {
+      min-height: var(--chatPfpSize);
+      box-sizing: content-box;
+      position: relative;
+    }
+    .containerCozy-jafyvG {
+      margin: 0;
+      padding: 20px 0;
+    }
+    .container-1YxwTf .divider-32i8lo {
+      position: absolute;
+      bottom: 20px;
+      width: 100%;
+    }
+    .container-3-pyIM .icon-2Po-VO, .container-3-pyIM .content-2M3n_H {
+      /* remove this for PFPs smaller than 40px */
+      transform: translate(0, calc(var(--chatPfpSize) / 2 - 20px));
+    }
+    .image-33JSyf, .wrapper-2F3Zv8 {
+      border-radius: 7.5%;
+    }
+    .root-3-B5F3 {
+      max-height: 100px;
+      overflow-x: hidden;
+      overflow-y: scroll;
+    }
+    .root-3-B5F3::-webkit-scrollbar {
+      height: 8px;
+      width: 8px;
+    }
+    .root-3-B5F3::-webkit-scrollbar-thumb {
+      border: 2px solid transparent;
+      border-radius: 4px;
+      cursor: move;
+      background-color: rgba(32,34,37,.6);
+    }
+    .root-3-B5F3::-webkit-scrollbar-track {
+      border-width: initial;
+      background-color: transparent;
+      border: 2px solid transparent;
+    }
+    .root-3-B5F3::-webkit-scrollbar-thumb, 
+    .root-3-B5F3::-webkit-scrollbar-track {
+      background-clip: padding-box;
+      border-radius: 7.5px;
+      border-style: solid;
+      border-width: 3px;
+      visibility: hidden;
+    }
+    .root-3-B5F3:hover::-webkit-scrollbar-thumb, 
+    .root-3-B5F3:hover::-webkit-scrollbar-track {
+      visibility: visible;
+    }
